@@ -1,2 +1,2 @@
-# nb_sidFM
+# sidFM
 8 voice fm drum synth
