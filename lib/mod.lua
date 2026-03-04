@@ -308,8 +308,8 @@ local function add_params()
 
   params:add_separator("sidfm_kits", "sidFM kit")
 
-  params:add_trigger("sidfm_load", ">> load")
-  params:set_action("sidfm_load", function() fs.enter(kit_path, load_kit) end)
+  params:add_trigger("sidfm_load_kit", ">> load")
+  params:set_action("sidfm_load_kit", function() fs.enter(kit_path, load_kit) end)
 
   params:add_trigger("sidfm_save_kit", "<< save")
   params:set_action("sidfm_save_kit", function() tx.enter(save_sidfm_kit, current_kit)  end)
